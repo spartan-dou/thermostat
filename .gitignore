@@ -1,0 +1,19 @@
+# Ignorer les fichiers et dossiers de l'environnement Python
+venv/
+__pycache__/
+
+# Ignorer les fichiers de configuration de l'IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers compilés
+*.pyc
+*.class
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.swp
+
