@@ -1,4 +1,4 @@
-"""The custom_generic_thermostat component."""
+"""The better_generic_thermostat component."""
 import logging
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant

@@ -1,6 +1,6 @@
 {
-    "domain": "custom_generic_thermostat",
-    "name": "Custom Generic Thermostat",
+    "domain": "better_generic_thermostat",
+    "name": "Better Generic Thermostat",
     "codeowners": [],
     "version": "1.0.0",
     "config_flow": true,

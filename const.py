@@ -1,4 +1,4 @@
-"""Constants for the Custom Generic Thermostat helper."""
+"""Constants for the Better Generic Thermostat helper."""
 
 from homeassistant.components.climate import (
     PRESET_ACTIVITY,
@@ -10,7 +10,7 @@ from homeassistant.components.climate import (
 )
 from homeassistant.const import Platform
 
-DOMAIN = "custom_generic_thermostat"
+DOMAIN = "better_generic_thermostat"
 
 PLATFORMS = [Platform.CLIMATE]
 

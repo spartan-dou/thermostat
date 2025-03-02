@@ -140,7 +140,7 @@ async def _async_setup_config(
     config_entry: ConfigEntry,
     async_add_entities: AddEntitiesCallback,
 ) -> None:
-    """Set up the custom generic thermostat platform."""
+    """Set up the better generic thermostat platform."""
 
     name: str = config[CONF_NAME]
     heater_entity_id: str = config[CONF_HEATER]
@@ -164,7 +164,7 @@ async def _async_setup_config(
 
     async_add_entities(
         [
-            CustomGenericThermostat(
+            BetterGenericThermostat(
                 hass,
                 name,
                 heater_entity_id,
@@ -187,8 +187,8 @@ async def _async_setup_config(
     )
 
 
-class CustomGenericThermostat(ClimateEntity, NumberEntity, RestoreEntity):
-    """Representation of a Custom Generic Thermostat device."""
+class BetterGenericThermostat(ClimateEntity, NumberEntity, RestoreEntity):
+    """Representation of a Better Generic Thermostat device."""
 
     _attr_should_poll = False
 
